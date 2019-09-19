@@ -1,7 +1,7 @@
 <template>
     <div class="container">
         <br>
-        <header-bar :quoteCount="quotes.length" :maxquotes="maxQuotes"></header-bar>
+        <header-bar :quoteCount="quotes.length" :maxQuotes="maxQuotes"></header-bar>
         <app-new-quote @quoteAdded="newQuote"></app-new-quote>
         <app-quote-grid :quotes="quotes" @quoteDeleted="quoteDeleted(i)"></app-quote-grid>
         
@@ -26,7 +26,7 @@ import Header from './components/Header.vue'
         },
         methods: {
             newQuote(newQuote) {
-                if(this.quotes.length >= maxQuotes) {
+                if(this.quotes.length >= this.maxQuotes) {
 return alert("please remove some quotes before adding more.")
                 }
                 this.quotes.push(newQuote)
