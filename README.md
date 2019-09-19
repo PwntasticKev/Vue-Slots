@@ -1,4 +1,4 @@
-![Farmers Market Finder Demo]('/src/assets/progressslotvue.gif')
+![Vue Slot List Demo](/src/assets/progressslotvue.gif)
 
 # vue-cli
 
