@@ -1,3 +1,5 @@
+![Farmers Market Finder Demo]('/src/assets/progressslotvue.gif')
+
 # vue-cli
 
 > A Vue.js project
